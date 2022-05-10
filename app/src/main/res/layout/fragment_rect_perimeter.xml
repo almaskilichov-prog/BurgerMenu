@@ -4,13 +4,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.rectsquare.RectSquareFragment">
+    tools:context=".ui.rectperimeter.RectPerimeterFragment">
 
     <TextView
-        android:id="@+id/textRectSquare"
+        android:id="@+id/textRectPerimeter"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Rectangle Square"
+        android:text="Rectangle Perimeter"
         android:textSize="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -19,18 +19,18 @@
         app:layout_constraintVertical_bias="0.276" />
 
     <TextView
-        android:id="@+id/textRectSquare2"
+        android:id="@+id/textRectPerimeter2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
-        android:text="S = a * b"
+        android:text="P = (a + b) * 2"
         android:textSize="14dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textRectSquare" />
+        app:layout_constraintTop_toBottomOf="@+id/textRectPerimeter" />
 
     <EditText
-        android:id="@+id/rectSquareA"
+        android:id="@+id/rectPerimeterA"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
@@ -40,10 +40,10 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textRectSquare2" />
+        app:layout_constraintTop_toBottomOf="@+id/textRectPerimeter2" />
 
     <EditText
-        android:id="@+id/rectSquareB"
+        android:id="@+id/rectPerimeterB"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
@@ -53,10 +53,10 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/rectSquareA" />
+        app:layout_constraintTop_toBottomOf="@+id/rectPerimeterA" />
 
     <Button
-        android:id="@+id/rectSquareCalculate"
+        android:id="@+id/rectPerimeterCalculate"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="24dp"
@@ -64,15 +64,15 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/rectSquareB" />
+        app:layout_constraintTop_toBottomOf="@+id/rectPerimeterB" />
 
     <TextView
-        android:id="@+id/rectSquareResult"
+        android:id="@+id/rectPerimeterResult"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="24dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/rectSquareCalculate" />
+        app:layout_constraintTop_toBottomOf="@+id/rectPerimeterCalculate" />
 </androidx.constraintlayout.widget.ConstraintLayout>
